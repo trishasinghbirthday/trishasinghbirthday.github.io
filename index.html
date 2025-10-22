@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="wpOceans">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+    <title>Happy Birthday</title>
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.css" rel="stylesheet">
+    <link href="assets/css/slick.css" rel="stylesheet">
+    <link href="assets/css/slick-theme.css" rel="stylesheet">
+    <link href="assets/css/swiper.min.css" rel="stylesheet">
+    <link href="assets/css/nice-select.css" rel="stylesheet">
+    <link href="assets/css/owl.transitions.css" rel="stylesheet">
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.css" rel="stylesheet">
+    <link href="assets/css/odometer-theme-default.css" rel="stylesheet">
+    <link href="assets/css/jquery-ui.css" rel="stylesheet">
+    <link href="assets/sass/style.css" rel="stylesheet">
+    <style>
+        .confetti {
+            position: fixed;
+            width: 10px;
+            height: 10px;
+            pointer-events: none;
+            top: 0;
+            animation: fall 3s linear infinite;
+            z-index: 9999;
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translateY(-10vh) rotate(0deg);
+            }
+
+            100% {
+                transform: translateY(100vh) rotate(720deg);
+            }
+        }
+
+
+        .glow {
+            font-size: 4rem;
+            color: #fff;
+            text-align: center;
+            animation: glow 1.5s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #ff0080, 0 0 20px #ff0080, 0 0 30px #ff0080;
+            }
+
+            to {
+                text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff, 0 0 60px #00ffff;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- start page-wrapper -->
+    <div class="page-wrapper">
+        <!-- start preloader -->
+        <div class="preloader">
+            <div class="vertical-centered-box">
+                <div class="content">
+                    <div class="loader-circle"></div>
+                    <div class="loader-line-mask">
+                        <div class="loader-line"></div>
+                    </div>
+                    <img src="assets/images/preloader.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- end preloader -->
+
+        <!-- start of hero -->
+        <section class="static-hero-s5">
+            <div class="static-main-box">
+                <div class="container-fluid">
+                    <div class="static-inner-box">
+                        <div class="row align-items-center">
+                            <div class="col col-xl-6 col-lg-7 col-md-12 col-12">
+                                <div class="wpo-static-hero-img">
+                                    <div class="wpo-static-hero-ineer-img">
+                                        <img src="assets/images/slider/hero-img-3.jpg" alt="">
+                                    </div>
+                                    <div class="back-flower">
+                                        <img src="assets/images/slider/back-flower2.png" alt="" class="wow zoomIn"
+                                            data-wow-duration="1200ms">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-xl-6 col-lg-5 col-md-12 col-12">
+                                <div class="hero-text">
+                                    <div class="vector-1 wow fadeInDown" data-wow-duration="1200ms">
+                                        <img src="assets/images/slider/vector1.png" alt="">
+                                    </div>
+                                    <h3 class="wow fadeInUp glow" data-wow-duration="1200ms">Trisha Singh</h3>
+                                    <h4 class="wow fadeInUp" data-wow-duration="1400ms"> November 2025</h4>
+                                    <div class="calender wow fadeInUp" data-wow-duration="1600ms">
+                                        <img src="assets/images/slider/calender.png" alt="">
+                                    </div>
+                                    <div class="vector-2 wow fadeInUp" data-wow-duration="1800ms">
+                                        <img src="assets/images/slider/vector2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of hero slider -->
+
+        <!-- start wpo-wedding-date -->
+        <section class="wpo-wedding-date-s4 section-padding pb-0">
+            <h2 class="d-none">hidden</h2>
+            <div class="container">
+                <div class="wedding-date-wrap">
+                    <div class="clock-grids">
+                        <div id="clock"></div>
+                    </div>
+                </div>
+            </div> <!-- end container -->
+        </section>
+        <!-- end wpo-wedding-date-s3-->
+
+        <!-- start wpo-couple-section -->
+        <section class="wpo-couple-section-s4 section-padding pb-0" id="couple">
+            <div class="container">
+                <div class="couple-wrap">
+                    <div class="row align-items-center">
+                        <div class="col col-lg-12 col-12">
+
+                            <div class="couple-item wow fadeInLeftSlow" data-wow-duration="1200ms">
+                                <div class="couple-img">
+                                    <img src="assets/images/couple/couple-img-12.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div> <!-- end container -->
+            <div class="left-shape"><img src="assets/images/couple/left-shape.png" alt=""></div>
+            <div class="right-shape"><img src="assets/images/couple/right-shape.png" alt=""></div>
+        </section>
+        <!-- end wpo-couple-section -->
+
+
+
+
+        <!-- start wpo-portfolio-section -->
+        <section class="wpo-portfolio-section-s5 section-padding" id="gallery">
+            <div class="container">
+                <div class="wpo-section-title">
+                    <h4 class="poort-text poort-in-right glow">Sweet Memories</h4>
+                </div>
+                <div class="sortable-gallery">
+                    <div class="gallery-filters"></div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="portfolio-grids gallery-container clearfix">
+                                <div class="grid wow fadeInUp" data-wow-duration="1000ms">
+                                    <div class="img-holder">
+                                        <a href="assets/images/portfolio/36.jpg" class="fancybox"
+                                            data-fancybox-group="gall-1">
+                                            <img src="assets/images/portfolio/36.jpg" alt class="img img-responsive">
+                                            <div class="hover-content">
+                                                <i class="ti-plus"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="grid wow fadeInUp" data-wow-duration="1200ms">
+                                    <div class="img-holder">
+                                        <a href="assets/images/portfolio/37.jpg" class="fancybox"
+                                            data-fancybox-group="gall-1">
+                                            <img src="assets/images/portfolio/37.jpg" alt class="img img-responsive">
+                                            <div class="hover-content">
+                                                <i class="ti-plus"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="grid wow fadeInUp" data-wow-duration="1400ms">
+                                    <div class="img-holder">
+                                        <a href="assets/images/portfolio/38.jpg" class="fancybox"
+                                            data-fancybox-group="gall-1">
+                                            <img src="assets/images/portfolio/38.jpg" alt class="img img-responsive">
+                                            <div class="hover-content">
+                                                <i class="ti-plus"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="grid wow fadeInUp" data-wow-duration="1000ms">
+                                    <div class="img-holder">
+                                        <a href="assets/images/portfolio/39.jpg" class="fancybox"
+                                            data-fancybox-group="gall-1">
+                                            <img src="assets/images/portfolio/39.jpg" alt class="img img-responsive">
+                                            <div class="hover-content">
+                                                <i class="ti-plus"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="grid wow fadeInUp" data-wow-duration="1400ms">
+                                    <div class="img-holder">
+                                        <a href="assets/images/portfolio/41.jpg" class="fancybox"
+                                            data-fancybox-group="gall-1">
+                                            <img src="assets/images/portfolio/41.jpg" alt class="img img-responsive">
+                                            <div class="hover-content">
+                                                <i class="ti-plus"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="grid wow fadeInUp" data-wow-duration="1200ms">
+                                    <div class="img-holder">
+                                        <a href="assets/images/portfolio/40.jpg" class="fancybox"
+                                            data-fancybox-group="gall-1">
+                                            <img src="assets/images/portfolio/40.jpg" alt class="img img-responsive">
+                                            <div class="hover-content">
+                                                <i class="ti-plus"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- end container -->
+        </section>
+        <!-- end wpo-portfolio-section -->
+
+        <!-- start of wpo-contact-section -->
+        <section class="wpo-contact-section-s6 section-padding pt-0" id="rsvp">
+            <div class="container">
+                <div class="contact-wrap">
+                    <div class="wpo-contact-section-wrapper">
+                        <div class="wpo-contact-form-area">
+                            <div class="wpo-section-title">
+                                <h2 class="glow">A daughter is a precious gift, and today we celebrate the joy she
+                                    brings into our lives. Please join us to make her birthday unforgettable!</h2>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="shape-1 wow fadeInDown" data-wow-duration="1200ms"><img
+                            src="assets/images/rsvp/top-shape.png" alt=""></div>
+                    <div class="shape-2 wow fadeInUp" data-wow-duration="1200ms"><img
+                            src="assets/images/rsvp/bottom-shape.png" alt=""></div>
+                </div>
+            </div>
+            <div class="left-shape-1"><img src="assets/images/rsvp/l-flower1.png" alt=""></div>
+            <div class="left-shape-2"><img src="assets/images/rsvp/l-flower2.png" alt=""></div>
+        </section>
+        <!-- end of wpo-contact-section -->
+
+        <!-- start wpo-event-section -->
+        <section class="wpo-event-section-s2 section-padding pt-0" id="event">
+            <div class="container-fluid">
+                <div class="wpo-section-title">
+                    <h4 class="poort-text poort-in-right">When & Where</h4>
+                    <h2 class="poort-text poort-in-right glow">Birthday Programs</h2>
+                </div>
+                <div class="wpo-event-main">
+                    <div class="event-description">
+                        <p>Pooja Monday, 2 November. 2025, 11:00 AM</p>
+                        <p>Cake Celebration 8:30 PM, / Dinner 9:00 PM</p>
+                        <p>H-16 Near shiv mandir road Sangam vihar New Delhi 110080</p>
+                    </div>
+                    <div class="wpo-event-wrap">
+                        <div class="wpo-event-inner">
+                            <div class="wpo-event-item">
+                                <div class="wpo-event-text">
+                                    <i><img src="assets/images/icon/11.svg" alt=""></i>
+                                    <span>Pooja</span>
+                                </div>
+                                <div class="wpo-event-time">
+                                    <h4>11.00 AM</h4>
+                                </div>
+                            </div>
+                            <div class="wpo-event-item">
+                                <div class="wpo-event-text">
+                                    <i><img src="assets/images/icon/5.svg" alt=""></i>
+                                    <span>Cake Cutting</span>
+                                </div>
+                                <div class="wpo-event-time">
+                                    <h4>8.30 PM</h4>
+                                </div>
+                            </div>
+                            <div class="wpo-event-item">
+                                <div class="wpo-event-text">
+                                    <i><img src="assets/images/icon/4.svg" alt=""></i>
+                                    <span>Dinner</span>
+                                </div>
+                                <div class="wpo-event-time">
+                                    <h4>9.00 PM</h4>
+                                </div>
+                            </div>
+
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- end container -->
+        </section>
+        <!-- end wpo-event-section -->
+
+
+        <!-- start of wpo-site-footer-section -->
+        <footer class="wpo-site-footer-s2">
+            <div class="wpo-upper-footer">
+                <div class="container">
+                    <div class="row align-items-center">
+
+                        <div class="col col-xl-12 col-lg-4 col-md-6 col-sm-12 col-12 text-center">
+
+                            <div class=" text-center">
+                                <a class="logo" href="index.htmT"><img style="border-radius: 20px;"
+                                        src="https://cdn.dribbble.com/userupload/43902928/file/original-5f985ff8f1913a681ffb5ec3376683cb.gif"
+                                        alt=""></a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div> <!-- end container -->
+            </div>
+
+        </footer>
+        <!-- end of wpo-site-footer-section -->
+
+    </div>
+    <!-- end of page-wrapper -->
+    <script>
+        for (let i = 0; i < 80; i++) {
+            const c = document.createElement('div');
+            c.className = 'confetti';
+            c.style.left = Math.random() * 100 + 'vw';
+            c.style.background = `hsl(${Math.random() * 360}, 100%, 70%)`;
+            c.style.animationDuration = 2 + Math.random() * 3 + 's';
+            c.style.width = c.style.height = 5 + Math.random() * 8 + 'px';
+            document.body.appendChild(c);
+        }
+    </script>
+    <!-- All JavaScript files
+    ================================================== -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugins for this template -->
+    <script src="assets/js/modernizr.custom.js"></script>
+    <script src="assets/js/jquery-plugin-collection.js"></script>
+    <script src="assets/js/3d-swiper.js"></script>
+    <script src="assets/js/gsap-active.js"></script>
+    <!-- Custom script for this template -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+
+</html>
