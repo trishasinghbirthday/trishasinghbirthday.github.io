@@ -5141,7 +5141,7 @@ a.ui-button:active, .ui-button:active,
 
 @media (max-width: 767px) {
   .static-hero-s5 {
-    padding: 50px 0px 20px 0px;
+    padding: 00px 0px 20px 0px;
   }
 }
 
